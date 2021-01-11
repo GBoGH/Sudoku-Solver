@@ -1,8 +1,10 @@
 import tkinter as tk
 
 
+
 root = tk.Tk()
 root.geometry("305x365")
+
 
 
 class Draw():
@@ -54,7 +56,6 @@ class Draw():
         for i in range(9):
             for j in range(9):
                 self.numbers_input[i][j].set("")
-
     def solve(self):
         solution = Solve()
 
