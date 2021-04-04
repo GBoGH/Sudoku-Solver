@@ -1,2 +1,2 @@
 # Sudoku Solver
-help
+GUI sudoku solver using backtracking
